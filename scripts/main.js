@@ -20,7 +20,7 @@ function setUserName() {
 	if(myName !== null){
 		localStorage.setItem('name', myName);
 		myHeading.textContent = myName + '，就这？\n你得支棱起来啊！';
-	else{
+	}else{
 		myName = ' ';
 	}
 }
