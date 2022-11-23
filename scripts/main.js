@@ -16,9 +16,9 @@ let myButton = document.querySelector("button");
 let myHeading = document.querySelector("h1");
 
 function setUserName() {
-	let myName = prompt('请输入你的名字:');
+	let myName = prompt('干点啥:');
 	localStorage.setItem('name', myName);
-	myHeading.textContent = 'Mozilla 酷毙了，' + myName;
+	myHeading.textContent = myName + '牛逼啊，铁汁！';
 }
 
 if (!localStorage.getItem('name')) {
