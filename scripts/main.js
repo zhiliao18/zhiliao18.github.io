@@ -18,7 +18,7 @@ let myHeading = document.querySelector("h1");
 function setUserName() {
 	let myName = prompt('今天干了点啥:');
 	localStorage.setItem('name', myName);
-	myHeading.textContent = myName + '牛逼啊，铁汁！';
+	myHeading.textContent ='才' + myName + '你得支棱起来啊！';
 }
 
 if (!localStorage.getItem('name')) {
