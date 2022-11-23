@@ -19,7 +19,7 @@ function setUserName() {
 	let myName = prompt('今天干了点啥:');
 	if(myName !== null){
 		localStorage.setItem('name', myName);
-		myHeading.textContent = myName + '，就这？ \\n 你得支棱起来啊！';
+		myHeading.textContent = myName + '，就这？ \r 你得支棱起来啊！';
 	}else{
 		myName = ' ';
 	}
